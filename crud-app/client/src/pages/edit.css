@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  background-color: rgb(35, 35, 158);
+  padding: 40px;
+  border: none;
+}
+label {
+  color: white;
+  font-weight: 800;
+}
+input {
+  width: 400px;
+  height: 30px;
+}
+.update {
+  width: 50%;
+  margin-top: 5%;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px 1px rgb(139, 138, 138);
+}
+
+@media screen and (max-width: 500px) {
+  input {
+    width: 180px;
+    height: 30px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 10%;
+    background-color: rgb(35, 35, 158);
+    padding: 40px;
+    border: none;
+  }
+}
+/* 
+@media screen and (min-width: 700px) {
+  input {
+    width: 290px;
+    height: 30px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    background-color: rgb(35, 35, 158);
+    padding: 40px;
+    border: none;
+  }
+} */

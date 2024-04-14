@@ -1,0 +1,83 @@
+.SingleCart-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 18px;
+  background: rgba(188, 183, 183, 0.536);
+}
+
+.SingleCart-main img {
+  width: 100px;
+  border: none;
+  padding: 3px;
+}
+.SingleCart-main .product-name {
+  color: green;
+  font-weight: 900;
+}
+.product-name-main {
+  max-width: 250px;
+}
+.SingleCart-main .price {
+  color: green;
+  font-weight: 900;
+}
+.SingleCart-main .qty {
+  display: flex;
+}
+.SingleCart-main .remove {
+  border: none;
+  font-size: 20px;
+  color: white;
+  background: red;
+  cursor: pointer;
+  padding: 3px;
+  box-shadow: 1px 1px 8px 1px black;
+}
+
+@media screen and (max-width: 500px) {
+  .SingleCart-main {
+    display: block;
+    /* 
+        justify-content: space-around;
+        align-items: center; */
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 18px;
+    background: rgba(188, 183, 183, 0.536);
+    max-width: 300px;
+  }
+  .SingleCart-main img {
+    width: 300px;
+    border: none;
+    padding: 3px;
+  }
+  .SingleCart-main .product-name {
+    color: green;
+    font-weight: 900;
+  }
+  .product-name-main {
+    max-width: 200px;
+  }
+
+  .SingleCart-main .price {
+    color: green;
+    font-weight: 900;
+  }
+  .SingleCart-main .qty {
+    display: flex;
+  }
+  .SingleCart-main .remove {
+    border: none;
+    font-size: 15px;
+    color: white;
+    background: red;
+    cursor: pointer;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 8px 1px black;
+  }
+}

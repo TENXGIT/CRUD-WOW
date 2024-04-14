@@ -1,0 +1,117 @@
+.single-main {
+  max-width: 350px;
+  width: 100%;
+  margin-top: 5%;
+}
+.single-center {
+  background-color: rgba(75, 76, 76, 0.404);
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px 2px;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 500px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+.single-center p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+  padding: 10px;
+}
+.single-center button {
+  width: 100px;
+  border: none;
+  font-size: 11px;
+  border-radius: 3px;
+  height: 35px;
+  background-color: rgba(252, 252, 212, 0.63);
+  color: rgb(9, 10, 10);
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.6s;
+  box-shadow: 1px 1px 4px 1px black;
+  margin-bottom: 4px;
+}
+.single-center button:hover {
+  color: azure;
+  background-color: rgb(119, 119, 118);
+}
+.single-center img {
+  width: 350px;
+  height: 350px;
+  border-radius: 3px;
+  object-fit: fill;
+  transition: 0.6s;
+}
+.single-center img:hover {
+  transform: rotate(4deg);
+  scale: 1.02;
+}
+.single-center .single-prices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.single-center .single-prices .old {
+  text-decoration: line-through rgba(53, 43, 43, 0.603);
+  color: rgba(180, 1, 1, 0.961);
+  font-size: 13px;
+}
+.single-center .single-prices .new {
+  color: rgb(1, 131, 1);
+  font-size: 16px;
+}
+.single-center .single-prices .new sup {
+  font-size: 14px;
+}
+.single-center .single-prices .old sup {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .single-main {
+    max-width: 380px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .single-center {
+    background-color: rgba(75, 76, 76, 0.404);
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 2px;
+
+    /* padding: 6px; */
+    height: 500px;
+  }
+  .single-center img {
+    width: 380px;
+    height: 250px;
+    border-radius: 3px;
+    object-fit: fill;
+
+    transition: 0.6s;
+  }
+}
+
+/* @media screen and (max-width: 700px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+} */
