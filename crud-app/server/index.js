@@ -8,9 +8,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(
-  cors({
-    origin: ["htttp://localhost:8000", "https://CRUD-APP.onrender.com"],
-  })
+  cors()
 );
 dotenv.config();
 
